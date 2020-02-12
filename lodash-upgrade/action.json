@@ -1,5 +1,5 @@
 {
-  "scopeQuery": "repo:sd9 repohasfile:^yarn\\.lock$ lang:typescript lodash",
+  "scopeQuery": "repo:sd9 repohasfile:^yarn\\.lock$ lang:typescript lodash -repo:codesandbox -repo:taro",
   "steps": [
 	{
 	  "type": "docker",

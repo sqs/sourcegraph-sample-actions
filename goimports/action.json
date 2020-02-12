@@ -1,0 +1,9 @@
+{
+  "scopeQuery": "repohasfile:\\.go$ repo:sd9 -repo:cockroach|brigade|bk-cmdb",
+  "steps": [
+	{
+	  "type": "docker",
+	  "image": "sqs1/goimports-action"
+	}
+  ]
+}

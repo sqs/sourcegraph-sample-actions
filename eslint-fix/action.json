@@ -1,5 +1,5 @@
 {
-  "scopeQuery": "repo:sourcegraph/ repohasfile:yarn\\.lock",
+  "scopeQuery": "repo:sd9 repohasfile:yarn\\.lock$ -repo:mdx-uti -repo:extension-samples -repo:mdx-deck repo:y -repo:codesandbox",
   "steps": [
 	{
 	  "type": "docker",

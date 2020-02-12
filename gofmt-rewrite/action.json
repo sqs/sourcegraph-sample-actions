@@ -1,0 +1,9 @@
+{
+  "scopeQuery": "repohasfile:^go\\.mod$$ repo:sd9",
+  "steps": [
+	{
+	  "type": "docker",
+	  "image": "sqs1/gofmt-rewrite-action"
+	}
+  ]
+}
