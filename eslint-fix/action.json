@@ -1,0 +1,12 @@
+{
+  "scopeQuery": "repo:sourcegraph/ repohasfile:yarn\\.lock",
+  "steps": [
+	{
+	  "type": "docker",
+	  "image": "sqs1/eslint-fix-action",
+	  "cacheDirs": [
+		"/cache"
+	  ]
+	}
+  ]
+}

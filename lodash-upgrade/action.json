@@ -1,0 +1,12 @@
+{
+  "scopeQuery": "repo:sd9 repohasfile:^yarn\\.lock$ lang:typescript lodash",
+  "steps": [
+	{
+	  "type": "docker",
+	  "image": "sqs1/lodash-upgrade-action",
+	  "cacheDirs": [
+		"/cache"
+	  ]
+	}
+  ]
+}
